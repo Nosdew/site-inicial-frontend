@@ -34,7 +34,7 @@
       <article>
         <p>Olá! Eu sou o Wedson, sou um desenvolvedor web...</p>
       </article>
-
+      <!--A PARTE-->
       <aside>
         <h3>Habilidades</h3>
         <ul>
@@ -44,6 +44,7 @@
         </ul>
       </aside>
     </section>
+    <!--PROJETOS-->
     <section id="projetos">
       <h2>Projetos</h2>
       <article>
@@ -51,11 +52,53 @@
         <p>Este foi o primeiro que desenvolvido, estudando front end.</p>
       </article>
     </section>
+    <!--RODAPÉ-->
     <footer>
       <p>Direitos reservados a Wedson</p>
       <section id="contato">
         <h2>Contato</h2>
         <p>Tem um projeto em mente? Entre em contato.</p>
+        <form action="">
+          <!--NOME PARA CONTATO-->
+          <label for="nome">Nome: </label>
+          <input type="text" id="nome" name="nome" required />
+          <br />
+          <!--E-MAIL PARA CONTATO-->
+          <label for="email">E-mail: </label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <!--TELEFONE PARA CONTATO-->
+          <label for="telefone">Telefone: </label>
+          <input type="tel" id="telefone" name="telefone" required />
+          <br />
+          <!--ASSUNTO-->
+          <label for="assunto">Assunto</label>
+          <select name="assunto" id="assunto">
+            <option value="orcamento">Orçamento</option>
+            <option value="duvida">Dúvida</option>
+            <option value="outro">Outro</option>
+          </select>
+          <br />
+          <!--MENSAGEM-->
+          <label for="mensagem">Mensagem: </label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <br />
+          <!--MARQUE A CAIXA-->
+          <input type="checkbox" id="inscricao" name="inscricao" />
+          <label for="inscricao"
+            >Deseja receber minha newsletter? Fique por dentro.</label
+          >
+          <br />
+          <!--BOTÃO ENVIAR-->
+          <input type="submit" value="Enviar mensagem" />
+        </form>
+        <br />
         <address>
           E-mail: <a href="mailto:geeknerdwh@gmail.com">geeknerdwh@gmail.com</a>
           <br />
